@@ -1,0 +1,10 @@
+body {
+    background: url(Images/MainImage.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+#container {
+position: absolute;
+left: 50%;
+top: 50%;
+}
