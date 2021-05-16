@@ -1,6 +1,7 @@
 body {
+    background-color: black;
     background: url(Images/MainImage.jpg) no-repeat center center fixed; 
-    background-size: cover;
+    background-size: contain;
 }
 
 #container {
