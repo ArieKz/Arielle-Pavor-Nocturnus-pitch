@@ -2,14 +2,14 @@ body {
     background: black;
 }
 #container{
-    position: absolute;
+    /* position: absolute; */
     border: 3px solid white;
     width: 900px;
     height: 800px;
     background-image: url(Images/MainImage.jpg);
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%);
     top: 50%;
-    left: 50%;
+    left: 50%; */
 }
 h2 {
         color: rgb(247, 241, 241);

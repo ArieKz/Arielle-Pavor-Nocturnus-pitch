@@ -27,13 +27,13 @@ function animate(){
 };
 
 animate();
-    
+  //make scrolling background move with player  
 
 
 
 //create player
 
-//create AI  enemies
+//create AI enemies
 
 //make enemies detect obsticles 
 
