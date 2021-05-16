@@ -9,13 +9,29 @@
     <title>project 1 Game</title>
 </head>
 <body>
- <canvas id="canvas"></canvas>
-
 <!-- set up home page -->
+    <div id="container">
+ <!-- center text name of game over image -->
+        <h2> Pavor Nocturnus</h2>
 <!-- create start button -->
-<!-- center text name of game over image -->
-
+        <form class="play-game" id="playGame">
+        <div data-Play-Game-text></div>
+        <button id="StartGame">Sweet Dreams!</button>
+    </form>
     </div>
+    <div id="container2">
+        <canvas id="canvas"></canvas>
+<!-- add scorekeeping/health -->
+        <p>game score: <span id="GameScore"></span></p>
+<!-- min max and what the  player starts with -->
+        <input type="" min="0" max="100" value="100" id="GameScore" >
+<!-- add game-over/restart -->
+        <form class="game-over" id=" gameOver">
+            <div data-Game-Over-text></div>
+            <button id="restart">Restart!</button>
+        </form>
+    </div>
+
   <script src="script.js" ></script> 
 </body>
 </html>

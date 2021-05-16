@@ -2,8 +2,8 @@ window.addEventListener("DOMContentLoaded", () => {
 // setcanvas postion
     const canvas = document.getElementById('canvas');
     const ctx = canvas.getContext('2d');
-    const CANVAS_WIDTH = canvas.width =800;
-    const CANVAS_HEIGHT = canvas.height =700;
+    const CANVAS_WIDTH = canvas.width =900;
+    const CANVAS_HEIGHT = canvas.height =800;
     let gameSpeed = 4;
 // add background layer
 const backgroundLayer =new Image();
@@ -28,18 +28,19 @@ function animate(){
 
 animate();
     
-// detect end of screen so image loops
+
 
 
 //create player
 
 //create AI  enemies
+
 //make enemies detect obsticles 
 
 //set up   player and enemie collison recognition
 //set up platforms and obsticles
 //make enemies dissapear when defeated
-//add scorekeeping
-//add game over/restart
+// set up health bar
+
 
 })
