@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
     const ctx = canvas.getContext('2d');
     const CANVAS_WIDTH = canvas.width =900;
     const CANVAS_HEIGHT = canvas.height =800;
-    let gameSpeed = 4;
+    let gameSpeed = 3;
 // add background layer
 const backgroundLayer =new Image();
 backgroundLayer.src = 'Images/FinalBackground.jpg';
